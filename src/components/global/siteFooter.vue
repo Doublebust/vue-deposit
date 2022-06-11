@@ -68,16 +68,16 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Capabilities</a></li>
-          <li><a href="#">Careers</a></li>
+          <li><a href="#">Investments</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
     </section>
     
     <section class="footer-item">
       <h3>Location</h3>  
-        <p>Envoy So. California</p>
-        <p>34 Tesla, Ste 100</p>
-        <p>Irvine, Ca, USA 92618</p>  
+        <p>Benoordenhoutseweg</p>
+        <p>2547 GR, Den Haag</p>
+        <p>Zuid-Holland</p>  
     </section>
 
     <section class="footer-item ">

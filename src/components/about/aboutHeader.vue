@@ -59,7 +59,7 @@
 }
 
 .about-banner p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 400;
 }
  

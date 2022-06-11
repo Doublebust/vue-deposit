@@ -38,6 +38,7 @@ html {
 body{
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  line-height: 1.5;
 }
 
 a {

@@ -57,6 +57,14 @@
     .invest-container {
       bottom: 30px;
     }
+
+    .intro-text h2 {
+      font-size: 1.5rem;
+    }
+
+    .intro-text p {
+      font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 330px) {

@@ -2,28 +2,29 @@
 
   <section id="about-rows">
        <div class="row">
-          <div class="left-row"></div>
+          <div class="left-row image"></div>
            <div class="right-row">
               <div class="right-text">
                  <h3>Moyee Ethiopia</h3>
                  <h5>Leading coffee company in Ethiopia</h5>
-                 <p>We have a strong commitment towards the People Planet Profit concept and want to help organizations implementing this concept by providing capital, knowledge, 
-                   our network and entrepreneurial drive. Studies show a clear need for sustainable, natural products that are also traceable in their origin. 
-                   The social theme of equal prosperity in the chain is also more relevant than ever. To be able to make a difference here too, 
-                   growth of our portfolio is desirable and therefore also the need for new capital.</p>
+                 <p>Moyee Coffee PLC is quickly becoming the first multi-national coffee company based out of Ethiopia. 
+                   They have managed to become the first ISO certificated Coffee Roaster in Ethiopia, with revolutionary fairchain
+                   practices such as world-class roasting and packaging facilities and living wages. Moyee has also sold over 5 million cups of Fairtraide coffee in 2019.
+                   The company is Further growing in Ethiopia and other African coffee drinking growth market, while also launching new brands.</p>
                  <a class="btn" href="#">Visit site</a>
               </div>
           </div>
        </div>  
        <div class="row-reverse">
-          <div class="left-row2"></div>
+          <div class="left-row2 image"></div>
            <div class="right-row">
               <div class="right-text">
                  <h3>AgroFair</h3>
                  <h5>Fairtrade organic fruit</h5>
-                 <p> People Planet Profit has got over 14 years of experience in sustainable food and sustainable energy.
-                   Because making the global energy supply more sustainable has now been successfully deployed, we have said goodbye to the participations in this sector. The goal has been achieved!
-                   Now full focus is on companies that are sustainably active in international food chains and where the origins are "smallholders" in developing countries.</p> 
+                 <p> AgroFair is a true market pioneer in producing and importing fairtrade fruit, such as bananas, banana paste and sweet potatoes.
+                  The company has been a frontrunner in Europe, and it is located at the world's biggest importer of bananas with a large marketshare.
+                  Our goal with AgroFair is to promote equal opportunities for male and female workers, 
+                  monitoring pesticides, improving watermanagement and healthy soils. Animal welfare will be our focus as well.</p> 
                  <a class="btn" href="#">Visit site</a>          
               </div>
           </div>
@@ -44,15 +45,18 @@
   }
 
   .left-row {
-    background: url("@/assets/Moyee.webp") no-repeat center / cover;
-    width: 50%;
-    height: 600px;
+    background: url("@/assets/Moyee.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45%;
+    height: 520px;
   }
 
   .right-row {
-    width: 50%;
+    width: 55%;
     background: #fff;
-    padding: 2rem 3rem;
+    padding: 40px;
     box-shadow: rgb(0 0 0 / 8%) 0px 0px 30px 0px;
     display: flex;
     margin-left: -100px;
@@ -80,12 +84,12 @@
 
  a {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 30px;
   background-color: #262626;
   color: #fff;
   border-radius: 20px;
@@ -100,7 +104,7 @@ a:hover {
  .row-reverse {
     width: 100%;
     max-width: 1200px;
-    margin: 6.5rem auto;
+    margin: 0px auto;
     padding: 0rem 1.2rem;
     display: flex;
     align-items: center;
@@ -112,16 +116,77 @@ a:hover {
  }
 
  .left-row2 {
-   background: url("@/assets/Agrosample.jpg") no-repeat center / cover;
+   background: url("@/assets/Agrosample.jpg");
    width: 50%;
    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
  }
 
 
  .left-row3 {
-   background: url("@/assets/field2.jpg") no-repeat center / cover;
+    background: url("@/assets/field2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 50%;
     height: 450px;
  }
 
+@media only screen and (max-width: 1024px) {
+  .row, .row-reverse {
+    flex-direction: column;
+  }
+
+  .right-row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -100px;
+    width: 95%;
+  }
+
+  #about-rows > div.row-reverse > div.right-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .image {
+    height: 60vw;
+    width: 100%;
+  }
+
+}
+
+  @media only screen and (max-width: 576px) {
+    .right-row {
+      width: 95%;
+    }
+
+    p{
+      line-height: 1.6;
+      font-size: 0.9rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    h5 {
+      font-size: 1rem;
+    }
+
+    .image {
+    height: 100vw;
+    width: 100%;
+  }
+
+  .right-row {
+    padding: 35px 30px;
+    margin-top: -70px;
+  }
+
+
+  }
+  
 </style>

@@ -39,7 +39,7 @@
 }
 
 .contact-banner-text {
-    margin-top:10rem;
+    margin-top:15rem;
    
 }
 

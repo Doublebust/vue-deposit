@@ -57,12 +57,13 @@
 
    .image-container {
        display: flex;
-       justify-content: space-between;
+     
+       gap: 2.3px;
    }
 
    .image {   
-        width: 33.2%;
-        height: 300px; 
+        width: 385.66px;
+        height: 250px; 
    }
 
 
@@ -80,6 +81,35 @@
         background: url("@/assets/seed3.jpg") no-repeat center / cover;
    }
 
+@media only screen and (max-width: 1024px) {
+  .image-container {
+     flex-flow: wrap;
+     
+  }
 
+  .image {
+     width: 47%;
+  }
+} 
+
+@media only screen and (max-width: 576px) {
+     .image {
+          width: 100%;
+     }
+
+      h2 {
+          font-size: 1.5rem;
+      }
+
+      p {
+          font-size: 0.9rem;
+      }
+ 
+ #invest-images {
+     margin-top: 4rem;
+ }
+   
+
+}
 
 </style>
