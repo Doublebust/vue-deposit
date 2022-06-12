@@ -36,7 +36,7 @@
            <ul>
              <li><i class="fa-solid fa-envelope"></i><a href="#">Peter@Peopleplanetprofit.com</a></li>
              <li><i class="fa-solid fa-phone"></i><a href="#">+31-6532-608-50</a></li>
-           </ul>
+           </ul>````
           </div>
          <div class="footer-row social">
             <h3>Follow</h3>
