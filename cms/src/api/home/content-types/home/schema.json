@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoHeroTitle": {
+      "type": "string"
+    },
+    "videoSubTitle": {
+      "type": "string",
+      "required": false
+    },
+    "videoButton": {
+      "type": "string"
+    }
+  }
+}
