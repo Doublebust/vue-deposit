@@ -21,7 +21,7 @@
             <li><router-link to="/contact">Contact</router-link></li>
         </ul>
         <ul ref="mobileNavHolder" class="nav-list-mobile" v-show="navigationToggled">
-            <li ref="link1" v-if="isNotHome"><router-link to="/">Home</router-link></li>
+            <li ref="link1"><router-link to="/">Home</router-link></li>
             <li ref="link2"><router-link to="/about">About</router-link></li>
             <li ref="link3"><router-link to="/investments">Investments</router-link></li>
             <li ref="link4"><router-link to="/contact">Contact</router-link></li>
@@ -181,7 +181,7 @@ export default {
     text-decoration: none;
     color: #FFF;
     transition:  0.2s;
-    margin-right: 4rem;
+    margin-left: 4rem;
   }
 
   .nav-list li a::after {

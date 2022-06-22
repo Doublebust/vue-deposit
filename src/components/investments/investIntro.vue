@@ -42,7 +42,7 @@
   }
 
    span {
-    border-bottom: 3px solid #dc3d04;
+    border-bottom: 5px solid #dc3d04;
   }
 
 

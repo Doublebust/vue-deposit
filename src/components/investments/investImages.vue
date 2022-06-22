@@ -24,7 +24,7 @@
    #invest-images{ 
        display: flex;
        justify-content: center;
-       margin: 5rem 0rem;
+       margin: 8rem 0rem 5rem 0rem;;
    }
 
 

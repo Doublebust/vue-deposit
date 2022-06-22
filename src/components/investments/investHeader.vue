@@ -42,7 +42,7 @@
 }
 
 .invest-banner-text {
-    margin-top:15rem;
+    margin-top:20rem;
    
 }
 

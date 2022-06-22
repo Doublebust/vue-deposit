@@ -63,7 +63,7 @@ import Flickity from 'vue-flickity'
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
-  padding: 6.5rem 1.2rem;
+  padding: 7rem 1.2rem;
 }
 
 .text-container {

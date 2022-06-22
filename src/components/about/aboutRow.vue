@@ -27,6 +27,7 @@
        <div class="row">
           <div class="left-row3">
        </div>
+
            <div class="right-row">
               <div class="right-text">
                  <h3>Our principles</h3>
@@ -41,6 +42,9 @@
 </template>
 
 
+
+
+
 <style scoped>
   .row{
     width: 100%;
@@ -50,6 +54,8 @@
     display: flex;
     align-items: center;
   }
+
+  
 
   .left-row {
     background: url("@/assets/coffee1.png") no-repeat center / cover;

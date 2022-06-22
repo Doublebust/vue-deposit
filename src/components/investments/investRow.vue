@@ -15,6 +15,16 @@
               </div>
           </div>
        </div>  
+
+      <aside class="video-container">
+        <div class="button-holder">
+        <div class="overlay">
+            <video class="moyee" poster="@/assets/revolutionPoster.gif"  src="@/assets/revolutionVid.mp4"></video>
+            <button type="button" name="button" class="button"></button>
+        </div>
+        </div>
+      </aside>
+
        <div class="row-reverse">
           <div class="left-row2 image"></div>
            <div class="right-row">
@@ -30,6 +40,14 @@
           </div>
        </div>  
        
+        <aside class="video-container">
+          <div class="button-holder">
+            <video class="agroFair " poster="@/assets/agroPoster.gif"  src="@/assets/plasticVid.mp4" ></video>
+            <button type="button" name="button" class="button"></button>
+          </div>
+       </aside>
+     
+
   </section>
   
 </template>
@@ -38,11 +56,61 @@
   .row{
     width: 100%;
     max-width: 1200px;
-    margin: 3rem auto 6.5rem auto;
+    margin: 4rem auto 0rem auto;
     padding: 0rem 1.2rem;
     display: flex;
     align-items: center;
+    
   }
+
+ 
+  #about-rows > div.row-reverse {
+        margin: 6rem auto 0rem auto;
+  }
+
+  .video-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0rem 1.2rem;
+    margin: 6rem auto;
+  }
+
+  .button-holder {
+    position: relative;
+    width: 80%;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .video-container .button {
+    box-sizing: border-box;
+    background: transparent;
+    border-width: 25px 0px 25px 50px;
+    border-color: transparent transparent transparent rgba(10, 10, 10, 0.6);
+    transition: 0.2s;
+    cursor: pointer;
+    outline: none;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .agroFair{
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 30px 0px;
+  }
+
+   .moyee {
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 30px 0px;
+   }
+
+   #about-rows > aside:nth-child(4) {
+    display: flex;
+    justify-content: flex-end;
+   }
 
   .left-row {
     background: url("@/assets/Moyee.webp");

@@ -3,7 +3,7 @@
      <video src="../../assets/banana.mp4" muted loop autoplay></video>
      <div class="overlay"></div>
      <div class="text">
-          <h2>Work towards a better world</h2>
+          <h2>Work towards a  better world</h2>
           <p>Build a sustainable future for workers</p>
           <button @click="scrollDown">Learn more</button>
      </div> 
@@ -137,7 +137,7 @@
    .text button {
      font-size: 0.8em;
      padding: 10px 20px;
-     margin-top: 0;
+  
    }
   }
 
@@ -156,9 +156,14 @@
      padding: 10px 20px;
      margin-top: 0;
    }
+
   }
+
+
+
  
 
 </style>
+
 
 
